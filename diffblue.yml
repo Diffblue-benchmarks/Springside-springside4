@@ -174,9 +174,99 @@ phases:
       cover-function-only: false
       # instrument the file as opposed to the function only
       cover-only: file
+
 units:
  - target:
    - dir: modules/utils/target/classes
      file: org/springside/modules/utils/time/DateUtil.class
      sourceDir: modules/utils/src/main/java
      sourceFile: org/springside/modules/utils/time/DateUtil.java
+ - target:
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/net/IPUtil.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/net/IPUtil.java
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/collection/ListUtil.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/collection/ListUtil.java
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/text/MoreStringUtil.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/text/MoreStringUtil.java
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/number/NumberUtil.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/number/NumberUtil.java
+ - target:
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/collection/MapUtil.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/collection/MapUtil.java
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/collection/MapUtil$ComparableEntryValueComparator.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/collection/MapUtil.java
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/collection/MapUtil$EntryValueComparator.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/collection/MapUtil.java
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/collection/MapUtil$ValueCreator.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/collection/MapUtil.java
+ - target:
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/MetricRegistry.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/MetricRegistry.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/metric/HistogramMetric.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/metric/HistogramMetric.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/metric/Counter.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/metric/Counter.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/MetricRegistryListener.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/MetricRegistryListener.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/metric/TimerMetric.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/metric/TimerMetric.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/metric/Histogram.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/metric/Histogram.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/metric/CounterMetric.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/metric/CounterMetric.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/metric/Gauge.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/metric/Gauge.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/utils/Clock.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/utils/Clock.java
+   - dir: modules/metrics/target/classes
+     file: org/springside/modules/metrics/metric/Timer.class
+     sourceDir: modules/metrics/src/main/java
+     sourceFile: org/springside/modules/metrics/metric/Timer.java
+ - target:
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/text/MoreStringUtil.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/text/MoreStringUtil.java
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/collection/ListUtil.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/collection/ListUtil.java
+ - target:
+   - dir: modules/utils/target/classes
+     file: org/springside/modules/utils/number/UnitConverter.class
+     sourceDir: modules/utils/src/main/java
+     sourceFile: org/springside/modules/utils/number/UnitConverter.java
